@@ -27,5 +27,4 @@ fun main() {
     println("max is $max")
     println("maxOrLimit is $maxOrLimit")
 
-    println("++++++++++++++++++++++++ WHEN expression")
 }
