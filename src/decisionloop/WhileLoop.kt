@@ -1,6 +1,6 @@
 package decisionloop
 
-import java.util.*
+import java.util.Scanner
 
 fun main(args: Array<String>){
     var count = 0

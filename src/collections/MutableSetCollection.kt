@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     }
     println("Using forEach method:")
     mutableSet.forEach { element -> println(element) }
-    // 1. Adding an element
+// 1. Adding an element
     mutableSet.add("Karan")
     println("After adding 'Karan': $mutableSet")
 // 2. Trying to add a duplicate element (Set does not allow duplicates)
@@ -22,7 +22,7 @@ fun main(args: Array<String>) {
     println("Does 'Ajay' exist in the set? ${mutableSet.contains("Ajay")}")
 // 5. Checking size of the set
     println("Size of the set: ${mutableSet.size}")
-    // 6. Adding multiple elements using '+=' (Set remains unique)
+// 6. Adding multiple elements using '+=' (Set remains unique)
     mutableSet += listOf("Morteza", "Emma")
     println("After adding [4, 5] using '+=': $mutableSet")
 // 7. Converting set to list and sorting (sets do not support sorting)
