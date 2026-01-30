@@ -23,8 +23,11 @@ fun main(args: Array<String>) {
 // 5. Checking size of the set
     println("Size of the set: ${mutableSet.size}")
 // 6. Adding multiple elements using '+=' (Set remains unique)
-    mutableSet += listOf("Morteza", "Emma")
+    mutableSet += mutableSetOf("Morteza", "Emma")
     println("After adding [4, 5] using '+=': $mutableSet")
+    mutableSet.sorted().reversed()
+    println("++++++++ Sorted Set and Reversed !!! +++ ")
+    println(mutableSet.sorted().reversed())
 // 7. Converting set to list and sorting (sets do not support sorting)
     val sortedList = mutableSet.toList().sorted()
     println("Sorted set as list: $sortedList")
