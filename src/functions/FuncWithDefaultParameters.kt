@@ -24,7 +24,7 @@ fun calculateAverage(vararg numbers: Int): Double {
     return sum.toDouble() / numbers.size
 }
 //vararg with Other parameters
-fun logMessages(level: String, vararg messages: String) {
+fun logMessages(vararg messages: String,level: String="INFO", ) {
     for (msg in messages) {
         println("[$level] $msg")
     }
@@ -34,15 +34,17 @@ fun main(args: Array<String>) {
     println("++++++++++ Using named parameters +++")
     printUser("leo", "1234")
     printUser("admin", "root", isAdmin = true)
+    printUser("admin", "root", isAdmin = true, isActive = false)
 
     println("++++++++++ Using vararg keyword if you don't know how many params you have +++")
     val res=calculateAverage(5, 15, 25)
     val res2=calculateAverage(5, 15, 25, 35)
     println(res)
     println(res2)
+    println(calculateAverage())
 
     println("++++++++++ Combination of vararg and default param +++")
-    logMessages("INFO", "Start app", "Loading data", "Done")
+    logMessages( "Start app", "Loading data", "Done", level ="WARNING")
 
 
 }
