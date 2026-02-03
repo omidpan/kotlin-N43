@@ -1,4 +1,4 @@
-package decisionloop
+package main.decisionloop
 
 fun main(args: Array<String>) {
     val str = "abcd 123"

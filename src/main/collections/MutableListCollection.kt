@@ -1,4 +1,4 @@
-package collections
+package main.collections
 
 fun main(args: Array<String>) {
     val numbers: MutableList<Int> = mutableListOf(1, 2, 3) // `val` is used

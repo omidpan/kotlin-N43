@@ -1,4 +1,4 @@
-package functions
+package main.functions
 fun calculateTotal(price: Double, quantity: Int, taxRate: Double): Double
 {
     val taxResult=price * quantity * (1 + taxRate)

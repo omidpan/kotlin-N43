@@ -1,4 +1,4 @@
-package collections
+package main.collections
 
 fun main(args: Array<String>) {
     // Iteration Methods

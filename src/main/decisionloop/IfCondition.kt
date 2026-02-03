@@ -1,4 +1,4 @@
-package decisionloop
+package main.decisionloop
 
 fun main() {
     val a = 2

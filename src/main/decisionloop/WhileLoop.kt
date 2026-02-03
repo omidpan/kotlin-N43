@@ -1,4 +1,4 @@
-package decisionloop
+package main.decisionloop
 
 import java.util.Scanner
 

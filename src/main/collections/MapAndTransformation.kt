@@ -1,9 +1,9 @@
-package collections
+package main.collections
 
 /**
  * map - Transforms each element
  * mapIndexed - Transforms each element with index reference
- *  flatMap - Flattens nested collections
+ *  flatMap - Flattens nested main.collections
  */
 fun main(args: Array<String>) {
     val nums = listOf(10, 20, 30, 40, 50)

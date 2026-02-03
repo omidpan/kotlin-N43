@@ -1,4 +1,4 @@
-package functions
+package main.functions
 
 /**
  *Key  Point:

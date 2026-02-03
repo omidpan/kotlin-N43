@@ -1,4 +1,4 @@
-package functions
+package main.functions
 fun greet() {
     println("Hello, Kotlin!")
 }
