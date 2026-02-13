@@ -11,7 +11,7 @@ class AnnotationExample {
 
 fun main(args: Array<String>) {
     val annotationExample = AnnotationExample()
-    annotationExample.infoTest("Omid Panahi")
+    annotationExample.infoTest("test")
 
 }
 
